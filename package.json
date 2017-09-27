@@ -4,7 +4,8 @@
   "description": "Some simple css helpers in the style of Bulma.io framework",
   "main": "bulma-atomic.sass",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node-sass --output-style compressed -o dist bulma-atomic.sass",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,6 @@
     "url": "https://github.com/tonning/bulma-atomic-css/issues"
   },
   "homepage": "https://github.com/tonning/bulma-atomic-css#readme",
-  "scripts": {
-    "scss": "node-sass --output-style compressed -o dist bulma-atomic.sass"
-  },
   "devDependencies": {
     "node-sass": "^4.5.3"
   }
