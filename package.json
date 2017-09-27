@@ -1,6 +1,6 @@
 {
   "name": "bulma-atomic-css",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Some simple css helpers in the style of Bulma.io framework",
   "main": "bulma-atomic.sass",
   "scripts": {
