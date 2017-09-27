@@ -5,7 +5,7 @@
   "main": "bulma-atomic.sass",
   "scripts": {
     "build": "node-sass --output-style compressed -o dist bulma-atomic.sass",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
